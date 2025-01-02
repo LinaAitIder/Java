@@ -1,0 +1,19 @@
+1)
+ps -ef | grep cron or systeml
+PID=179
+
+2)
+PID = 766
+PPID = 741 , PID de l'utilisateur qui  execute la commande .
+
+3)
+
+
+4)
+/etc/cron.d -> Here I shoul have the cron.allow and cron.deny
+creating the cron.deny in cron.d = empty
+5)
+Creating a 
+
+man nohup
+parfois le processus parent se termine avant le processus fils , le processus fils prend comme parent le PPID = 1 , c.adire le Shell .

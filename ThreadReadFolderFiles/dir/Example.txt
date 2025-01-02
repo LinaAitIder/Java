@@ -1,0 +1,4 @@
+glFlush() and glutSwapBuffers() difference :
+https://stackoverflow.com/questions/25949228/opengl-buffers-glflush-and-glutswapbuffers
+https://www.opengl.org/resources/libraries/glut/spec3/node21.html
+glutSwapBuffers  essentialy  used for double buffered layer , it  promotes the content of the back buffer of the layer in use o
